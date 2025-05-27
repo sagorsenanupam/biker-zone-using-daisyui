@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="Light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -202,7 +202,7 @@
       </section>
 
       <!-- Latest News -->
-      <section class="mb-24">
+      <section class="mb-24 my-24 mx-auto">
         <!-- Title -->
         <div>
           <h1 class="text-5xl text-black font-bold text-center mb-20">
@@ -210,20 +210,286 @@
           </h1>
         </div>
         <!-- Cards -->
-        <div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- Card-1 -->
           <div class="card bg-base-100 w-96 shadow-sm">
             <figure>
-              <img src="images/others/latest1.png" alt="Shoes" />
+              <img class="mb-5" src="images/others/latest1.png" alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <h2 class="card-title text-black font-bold text-xl">
+                Ducati XDIAVEL S-73
+              </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
                 fermentum amet faucibus sed id nisi lectus at.
               </p>
               <div class="card-actions">
-                <button class="btn btn-warning">Read More</button>
+                <button>
+                  <a class="btn bg-bike-primary text-white">See More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card-2 -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img class="mb-5" src="images/others/latest2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-black font-bold text-xl">
+                Motorcycles & Scooters
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <a
+                    class="btn bg-white text-orange-500 border border-orange-500"
+                    >Read More</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card-3 -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img class="mb-5" src="images/others/latest3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-black font-bold text-xl">
+                2021 Honda CBR500R
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <a
+                    class="btn bg-white text-orange-500 border border-orange-500"
+                    >Read More</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Happy Clients says -->
+      <section class="mb-24 my-24">
+        <!-- title -->
+        <div>
+          <h1 class="text-5xl text-black font-bold text-center mb-20">
+            Happy <span class="text-bike-primary">Clients says</span>
+          </h1>
+        </div>
+        <!-- cards -->
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Card-1 -->
+          <div class="border">
+            <div class="avatar mb-5 mx-40 mt-10">
+              <div class="ring-primary ring-offset-base-100 w-24 rounded-full">
+                <img class="" src="images/others/user-1.png" />
+              </div>
+            </div>
+            <p class="text-gray-500 mb-5 text-center mx-8">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating mb-5 items-center mx-38">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <p class="text-blue-500 text-center">Regina Miles</p>
+            <p class="text-black text-center mb-10">Banker</p>
+          </div>
+          <!-- Card-2 -->
+          <div class="border">
+            <div class="avatar mb-5 mx-40 mt-10">
+              <div class="ring-primary ring-offset-base-100 w-24 rounded-full">
+                <img class="" src="images/others/user-2.png" />
+              </div>
+            </div>
+            <p class="text-gray-500 mb-5 text-center mx-8">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating mb-5 items-center mx-38">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <p class="text-blue-500 text-center">Regina Miles</p>
+            <p class="text-black text-center mb-10">Banker</p>
+          </div>
+          <!-- Card-3 -->
+          <div class="border">
+            <div class="avatar mb-5 mx-40 mt-10">
+              <div class="ring-primary ring-offset-base-100 w-24 rounded-full">
+                <img class="" src="images/others/user-3.png" />
+              </div>
+            </div>
+            <p class="text-gray-500 mb-5 text-center mx-8">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating mb-5 items-center mx-38">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+            <p class="text-blue-500 text-center">Regina Miles</p>
+            <p class="text-black text-center mb-10">Banker</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Questions -->
+      <section class="mb-24 my-24">
+        <!-- title -->
+        <div>
+          <h1 class="text-5xl text-black font-bold text-center mb-20">
+            Frequently Asked <span class="text-bike-primary">Questions</span>
+          </h1>
+        </div>
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row gap-10">
+            <!-- Image -->
+            <div class="lg:w-1/2">
+              <img
+                src="images/others/faq.png"
+                class="w-full rounded-lg bg-transparent"
+                alt="FAQ"
+              />
+            </div>
+            <!-- Accordion -->
+            <div class="lg:w-1/2 space-y-4">
+              <!-- Accordion items go here -->
+              <div
+                class="collapse collapse-arrow bg-base-100 border border-base-300"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title font-semibold">
+                  How do I create an account?
+                </div>
+                <div class="collapse-content text-sm">
+                  Click the "Sign Up" button in the top right corner and follow
+                  the registration process.
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-base-100 border border-base-300"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  I forgot my password. What should I do?
+                </div>
+                <div class="collapse-content text-sm">
+                  Click on "Forgot Password" on the login page and follow the
+                  instructions sent to your email.
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-base-100 border border-base-300"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  How do I update my profile information?
+                </div>
+                <div class="collapse-content text-sm">
+                  Go to "My Account" settings and select "Edit Profile" to make
+                  changes.
+                </div>
               </div>
             </div>
           </div>
